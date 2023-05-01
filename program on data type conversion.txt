@@ -1,0 +1,22 @@
+ class Implicit
+{
+public static void main(String args[])
+{
+int value = 25;
+System.out.println("the value before conversion is"+value);
+long result = value; 
+System.out.println("the value after conversion is"+result);
+}
+}
+
+
+class Explicit
+{
+public static void main(String args[])
+{
+float value = 2.5f;
+System.out.println("the value before conversion is"+value);
+int result = value;
+System.out.println("the value after conversion is"+result);
+}
+}
