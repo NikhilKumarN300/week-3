@@ -1,0 +1,118 @@
+assignment operator = it is used to assign values to variables,but the output will be displayed as boolean(true,false)
+example: x+y
+         x-y
+         x/y
+         x%y
+         x*y
+public calss Example
+{
+public static void main(string() args)
+       {
+        int x = 10;
+        int y = 30;
+   System.out.println(x+y);  
+   System.out.println( x-y);  
+   System.out.println(x/y);  
+   System.out.println(x%y);  
+   System.out.println( x*y);  
+}
+}
+-----------------------------------------------------------------------------------------------------------------------
+relational operator = it is used to compare two variables are equal or not ,greater than or lesser than,it will always return boolean value
+example:
+
+public calss Example
+{
+public static void main(string() args)
+       {
+        int x = 10;
+        int y = 30;
+   System.out.println(x ==y);  
+   System.out.println(x!=y);  
+   System.out.println(x>y);  
+   System.out.println(x<y);  
+   System.out.println(x<=y);
+   System.out.println(x=>y);
+}
+}
+---------------------------------------------------------------------------------------------------------------------
+logical operator = it is used to check whether a given expression is true or not
+  || logical OR
+  && logical AND
+  !  logical NOT
+example :  
+
+import java.util.Scanner;
+public class Example3
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+int age, incomeValue;
+System.out.println("enter the age");
+age = sc.nextInt();
+System.out.println("enter the incomeValue");
+incomeValue = sc.nextInt();
+  if(age>=20 && incomeValue >=50000)
+     {
+    System.out.println("Both conditions are satisfied");
+  }
+System.out.println("not satisfied");
+}
+}
+ ----------------------------------------------------------------------------
+assignment operator = it is used to assign values to variables
+  
+example: import java.util.Scanner;
+public class example
+{
+  public static void main(String args[])
+  {
+    int value;
+    Scanner sc= new Scanner(System.in);
+    System.out.println("Enter the value");
+    value=sc.nextInt();
+    System.out.println("Before assignment operator value ="+value);
+    value+=2;
+    System.out.println("After assignment operator value ="+value);
+  }
+}
+------------------------------------------------------------------------------------
+increment or decrement operator = it is used to increase the value or decrease the variable by 1
+example: import java.util.Scanner;
+    public class IncOperator
+   {
+    public static void main(String[] args)
+   {
+    Scanner sc=new Scanner(System.in);
+    int value1,value2;
+    System.out.println("enter value 1");
+    value1=sc.nextInt();
+    value2=value1++;
+    System.out.println("value1 ="+value1);
+    System.out.println("value2 ="+value2);
+   
+  }
+}
+------------------------------------------------------------------------------------------------------------
+           
+Ternary operator: it is used to check true or false and the return value will be in boolean
+
+ variable = exp1?exp2:exp3
+ example: import java.util.Scanner;
+    public class TernaryOperator
+   {
+    public static void main(String[] args)
+   {
+   Scanner sc=new Scanner(System.in);
+   int x;
+   string output;
+   System.out.println("enter value x");
+   x = sc.nextInt();
+   output = (x>0)?"positive":"negative";
+   System.out.println(output);
+}
+}
+
+-------------------------------------------------------------------------------------------
+
